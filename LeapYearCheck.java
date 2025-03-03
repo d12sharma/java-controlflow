@@ -7,11 +7,7 @@ class LeapYearCheck {
 
         if (year >= 1582) { 
             //Using multiple if-else statements
-            if (year % 400 == 0) { 
-                System.out.println(year + " is a Leap Year.");
-            } else if (year % 100 == 0) {
-                System.out.println(year + " is not a Leap Year.");
-            } else if (year % 4 == 0) {
+             if (year % 4 == 0) {
                 System.out.println(year + " is a Leap Year.");
             } else {
                 System.out.println(year + " is not a Leap Year.");
