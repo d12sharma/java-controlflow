@@ -12,7 +12,7 @@ class RocketCountdown {
         // Countdown from the user input value to 1
         while (counter>=1) {
             System.out.println(counter);
-            counter--; // Decrement the counter
+            counter--; 
         }
 
     }
