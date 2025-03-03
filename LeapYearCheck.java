@@ -6,7 +6,7 @@ class LeapYearCheck {
         int year = sc.nextInt(); // Read year input
 
         if (year >= 1582) { 
-            //Using multiple if-else statements
+            
              if (year % 4 == 0) {
                 System.out.println(year + " is a Leap Year.");
             } else {
